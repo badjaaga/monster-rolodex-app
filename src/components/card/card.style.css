@@ -1,0 +1,20 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    border-radius: 5%;
+    cursor: pointer;
+
+    background-color: #dad9d7;
+}
+
+.card:hover{
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+}
+.card p{
+    font-weight: 100;
+}
